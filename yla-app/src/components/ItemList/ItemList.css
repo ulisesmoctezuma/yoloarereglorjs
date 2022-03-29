@@ -1,0 +1,27 @@
+.productConteiner{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin: 10px;
+}
+.imgProducts {
+    display: flex;
+    justify-content: space-around !important;
+    height: 180px !important;
+    width: auto;
+    object-fit: contain;
+    padding-top: 20px;
+}
+
+.card {
+    align-items: center
+}
+
+.btnEstiloItem {
+    background: #ddd9d9;
+    color: #241b97 !important;
+    font-weight: 500;
+    padding: 0.3rem 0.6rem;
+    border-radius: 1.5rem;
+    border: none;
+}

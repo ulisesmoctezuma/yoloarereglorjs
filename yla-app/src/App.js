@@ -13,7 +13,7 @@ function App() {
   return ( 
     <div className = "App">
       <MiNavBar />
-      <h1 style={{paddingTop: 20}}>Desafío 2 y 3</h1>
+      <h1 style={{paddingTop: 20}}>Desafío 5 y 6</h1>
       <ItemListContainer greeting="Hola amigos de CODERHOUSE"/>
       <ItemCount initial={1} stock={30} onAdd={onAdd}/>
     </div>
